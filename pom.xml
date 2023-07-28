@@ -55,6 +55,11 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
 		
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
@@ -76,7 +81,7 @@
 		<dependency>
 	    <groupId>org.json</groupId>
 	    	<artifactId>json</artifactId>
-	    	<version>20210307</version>
+	    	<version>20230618</version>
 		</dependency>
 
 		
