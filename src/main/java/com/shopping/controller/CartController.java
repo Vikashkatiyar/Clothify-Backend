@@ -20,7 +20,7 @@ import com.shopping.response.ApiResponse;
 import com.shopping.service.CartService;
 import com.shopping.service.UserService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/cart")
 public class CartController {

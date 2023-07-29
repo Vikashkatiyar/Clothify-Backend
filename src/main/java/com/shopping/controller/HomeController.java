@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.shopping.response.ApiResponse;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 public class HomeController {
 

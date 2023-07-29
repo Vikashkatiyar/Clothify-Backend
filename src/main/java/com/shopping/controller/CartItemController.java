@@ -19,7 +19,7 @@ import com.shopping.response.ApiResponse;
 import com.shopping.service.CartItemService;
 import com.shopping.service.UserService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/cart_items")
 public class CartItemController {

@@ -32,9 +32,10 @@ import com.shopping.service.UserService;
 import com.shopping.user.domain.OrderStatus;
 import com.shopping.user.domain.PaymentStatus;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 @RestController
 @RequestMapping("/api")
+@CrossOrigin
 public class PaymentController {
 	
 	private OrderService orderService;

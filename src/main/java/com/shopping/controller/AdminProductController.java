@@ -20,7 +20,7 @@ import com.shopping.request.CreateProductRequest;
 import com.shopping.response.ApiResponse;
 import com.shopping.service.ProductService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/admin/products")
 public class AdminProductController {

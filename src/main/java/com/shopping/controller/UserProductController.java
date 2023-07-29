@@ -17,7 +17,7 @@ import com.shopping.modal.Product;
 import com.shopping.service.ProductService;
 import com.shopping.user.domain.ProductSubCategory;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class UserProductController {

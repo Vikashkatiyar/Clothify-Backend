@@ -21,9 +21,10 @@ import com.shopping.request.ReviewRequest;
 import com.shopping.service.ReviewService;
 import com.shopping.service.UserService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 @RestController
 @RequestMapping("/api/reviews")
+@CrossOrigin
 public class ReviewController {
 	
 	private ReviewService reviewService;

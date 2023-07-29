@@ -22,9 +22,10 @@ import com.shopping.modal.User;
 import com.shopping.service.OrderService;
 import com.shopping.service.UserService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 @RestController
 @RequestMapping("/api/orders")
+@CrossOrigin
 public class OrderController {
 	
 	private OrderService orderService;

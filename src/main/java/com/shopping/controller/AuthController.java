@@ -26,7 +26,7 @@ import com.shopping.service.CustomUserDetails;
 
 import jakarta.validation.Valid;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/auth")
 public class AuthController {

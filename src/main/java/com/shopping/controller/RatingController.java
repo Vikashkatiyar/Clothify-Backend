@@ -22,9 +22,10 @@ import com.shopping.request.RatingRequest;
 import com.shopping.service.RatingServices;
 import com.shopping.service.UserService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+
 @RestController
 @RequestMapping("/api/ratings")
+@CrossOrigin
 public class RatingController {
 	
 	private UserService userService;

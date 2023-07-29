@@ -18,7 +18,7 @@ import com.shopping.modal.Order;
 import com.shopping.response.ApiResponse;
 import com.shopping.service.OrderService;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/admin/orders")
 public class AdminOrderController {
